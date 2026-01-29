@@ -152,7 +152,7 @@ function HelmetModel({ tubeAngleRef }: { tubeAngleRef: React.MutableRefObject<nu
     <group ref={modelRef} rotation={[baseRotation.x, baseRotation.y, 0]}>
       <primitive
         object={scene}
-        position={[0.2, 0, 0]}
+        position={[0.2, 0, -0.1]}
       />
     </group>
   );
